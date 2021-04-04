@@ -33,6 +33,7 @@ File file = new File("./SoapRequest/Add.xml");
 		given().
 			contentType("text/xml").
 			accept(ContentType.XML).
+			
 			body(requestBody).
 		when().
 			post("/calculator.asmx").
