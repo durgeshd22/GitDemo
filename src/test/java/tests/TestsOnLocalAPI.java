@@ -28,6 +28,9 @@ public class TestsOnLocalAPI {
 		request.put("subjectId", 1);
 
 		baseURI = "http://localhost:3000";
+		
+		
+		
 
 		given()
 		.contentType(ContentType.JSON)
